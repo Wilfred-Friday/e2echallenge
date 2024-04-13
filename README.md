@@ -8,7 +8,7 @@ This project provides an automated test solution using Selenium, Maven, and Cucu
 * Git
 # Installation
 Clone the Repository
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Wilfred-Friday/e2echallenge.git
 cd your-repository
 
 # Install Dependencies

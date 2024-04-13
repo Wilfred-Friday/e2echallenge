@@ -18,7 +18,7 @@ public class E2E_001 extends Base {
     Home_Page homePage = new Home_Page(driver);
     SignUp_Page signUpPage = new SignUp_Page(driver);
 
-    @Before
+    @Before //set browser reading the properties files
     public void pSetBrowser(){
         setDriver();
         setUrl(pRead_Properties_Files("url"));
@@ -139,7 +139,7 @@ public class E2E_001 extends Base {
         System.out.println("Deleted tag message is displayed");
     }
 
-    @After
+    @After //Close the browser after test is completed
     public void pQuit(){
        browserQuit();
     }
